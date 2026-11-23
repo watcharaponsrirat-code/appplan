@@ -1,0 +1,26 @@
+data/
+logs/
+.runtime/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+node_modules/
+test-results/
+dist/
+
+# School originals, extracted text, and the real reference catalog stay local.
+references/
+reference-review/
+public/school-reference-data.json
+
+# Local credentials and machine-specific settings.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+__pycache__/
+*.pyc

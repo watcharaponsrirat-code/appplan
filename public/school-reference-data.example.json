@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "version": "demo-example-1",
+  "isDemo": true,
+  "description": "ข้อมูลสมมติสำหรับทดลองซอร์สโค้ดบน GitHub เท่านั้น ไม่ใช่เอกสาร นโยบาย หรือมาตรฐานของโรงเรียน ห้ามใช้อ้างอิงในการจัดทำเอกสารจริง",
+  "sources": [
+    {
+      "file": "school-reference-data.example.json",
+      "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+    }
+  ],
+  "issues": [],
+  "items": [
+    {
+      "id": "demo:strategy:1",
+      "category": "strategy",
+      "code": "1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: กลยุทธ์ทดลอง 1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:strategicProject:1",
+      "category": "strategicProject",
+      "code": "1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: โครงการทดลอง 1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "strategyId": "demo:strategy:1"
+    },
+    {
+      "id": "demo:strategy:2",
+      "category": "strategy",
+      "code": "2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: กลยุทธ์ทดลอง 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:strategicProject:2",
+      "category": "strategicProject",
+      "code": "2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: โครงการทดลอง 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "strategyId": "demo:strategy:2"
+    },
+    {
+      "id": "demo:standards:1",
+      "category": "standards",
+      "code": "1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: กลุ่มคุณภาพสำหรับทดลอง",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:standards:1.1",
+      "category": "standards",
+      "code": "1.1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: กลุ่มย่อยทดลอง ก",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1"
+    },
+    {
+      "id": "demo:standards:1.2",
+      "category": "standards",
+      "code": "1.2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: กลุ่มย่อยทดลอง ข",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1"
+    },
+    {
+      "id": "demo:standards:1.1.1",
+      "category": "standards",
+      "code": "1.1.1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: กิจกรรมอ่านสำหรับทดลอง",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.1"
+    },
+    {
+      "id": "demo:standards:1.1.2",
+      "category": "standards",
+      "code": "1.1.2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ก 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.1"
+    },
+    {
+      "id": "demo:standards:1.1.3",
+      "category": "standards",
+      "code": "1.1.3",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ก 3",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.1"
+    },
+    {
+      "id": "demo:standards:1.1.4",
+      "category": "standards",
+      "code": "1.1.4",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ก 4",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.1"
+    },
+    {
+      "id": "demo:standards:1.1.5",
+      "category": "standards",
+      "code": "1.1.5",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ก 5",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.1"
+    },
+    {
+      "id": "demo:standards:1.1.6",
+      "category": "standards",
+      "code": "1.1.6",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ก 6",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.1"
+    },
+    {
+      "id": "demo:standards:1.2.1",
+      "category": "standards",
+      "code": "1.2.1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ข 1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.2"
+    },
+    {
+      "id": "demo:standards:1.2.2",
+      "category": "standards",
+      "code": "1.2.2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ข 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.2"
+    },
+    {
+      "id": "demo:standards:1.2.3",
+      "category": "standards",
+      "code": "1.2.3",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ข 3",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.2"
+    },
+    {
+      "id": "demo:standards:1.2.4",
+      "category": "standards",
+      "code": "1.2.4",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง ข 4",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:1.2"
+    },
+    {
+      "id": "demo:standards:2",
+      "category": "standards",
+      "code": "2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: กลุ่มทดลอง 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:standards:2.1",
+      "category": "standards",
+      "code": "2.1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง 2.1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:2"
+    },
+    {
+      "id": "demo:standards:2.2",
+      "category": "standards",
+      "code": "2.2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง 2.2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:2"
+    },
+    {
+      "id": "demo:standards:3",
+      "category": "standards",
+      "code": "3",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: กลุ่มทดลอง 3",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:standards:3.1",
+      "category": "standards",
+      "code": "3.1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง 3.1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:3"
+    },
+    {
+      "id": "demo:standards:3.2",
+      "category": "standards",
+      "code": "3.2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง 3.2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      },
+      "parentId": "demo:standards:3"
+    },
+    {
+      "id": "demo:obecPolicy:1",
+      "category": "obecPolicy",
+      "code": "1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง obecPolicy 1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:obecPolicy:2",
+      "category": "obecPolicy",
+      "code": "2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง obecPolicy 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:onesqa:1",
+      "category": "onesqa",
+      "code": "1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง onesqa 1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:onesqa:2",
+      "category": "onesqa",
+      "code": "2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง onesqa 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:worldClass:1",
+      "category": "worldClass",
+      "code": "1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง worldClass 1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:worldClass:2",
+      "category": "worldClass",
+      "code": "2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง worldClass 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:kpd:1",
+      "category": "kpd",
+      "code": "1",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง kpd 1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:kpd:2",
+      "category": "kpd",
+      "code": "2",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: รายการทดลอง kpd 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:hongson:1",
+      "category": "hongson",
+      "code": "H",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: องค์ประกอบทดลองลำดับ 1",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:hongson:2",
+      "category": "hongson",
+      "code": "O",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: องค์ประกอบทดลองลำดับ 2",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:hongson:3",
+      "category": "hongson",
+      "code": "N",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: องค์ประกอบทดลองลำดับ 3",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:hongson:4",
+      "category": "hongson",
+      "code": "G",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: องค์ประกอบทดลองลำดับ 4",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:hongson:5",
+      "category": "hongson",
+      "code": "S",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: องค์ประกอบทดลองลำดับ 5",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:hongson:6",
+      "category": "hongson",
+      "code": "O",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: องค์ประกอบทดลองลำดับ 6",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    },
+    {
+      "id": "demo:hongson:7",
+      "category": "hongson",
+      "code": "N",
+      "name": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ: องค์ประกอบทดลองลำดับ 7",
+      "source": {
+        "file": "school-reference-data.example.json",
+        "note": "ตัวอย่างสมมติ ไม่ใช่ข้อมูลทางการ"
+      }
+    }
+  ]
+}
+
